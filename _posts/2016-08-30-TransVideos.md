@@ -18,4 +18,4 @@ title: 视频搬运服务
 这三个模块互相没有调用的关系，VideoCrawler在每天自动执行一次，很快就可以爬完增量信息，而VideoDownloader和VideoUploader是启动后就一直执行，如果数据库中没有符合条件的，就休眠一小会。这次这个服务是部署在腾讯云上的那个学生主机，由于带宽有限，而且下载还要走代理，所以下载速度异常的慢，上传速度还好。
 
 
-项目地址：[TransVideo](https://github.com/prdwb/TransVideos)
+项目地址：[TransVideos](https://github.com/prdwb/TransVideos)
