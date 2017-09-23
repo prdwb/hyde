@@ -25,6 +25,8 @@ version:          2.1.0
 github:
   repo:           https://github.com/prdwb
   
+linkedin:         https://chenqu.me/linkedin
+  
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
